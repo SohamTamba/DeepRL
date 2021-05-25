@@ -16,7 +16,7 @@ You have to play Open AI Gym's CarRacing game to produce state images and their 
 
 **Final result - My agent playing the game:**
 
-![My Trained Agent](https://github.com/SohamTamba/DeepRL/blob/master/%232/Racing/racing-demo.gif)
+![My Trained Agent](https://github.com/SohamTamba/DeepRL/tree/master/2%20-%20Immitation%20Learning/Racing/racing-demo.gif)
 
 I played the game to generate 25,000 state/action pairs, 23,000 of which formed the training dataset and the remainder formed the validation dataset. I achieved an average score of approximate 800, after practicing for a few hours.
 
@@ -24,7 +24,7 @@ The architecture of my agent model can be decomposed into a encoder and decoder:
 
 **Agent model architecture:**
 
-![Agent Model Architecture](https://github.com/SohamTamba/DeepRL/blob/master/%232/Racing/model.png)
+![Agent Model Architecture](https://github.com/SohamTamba/DeepRL/tree/master/2%20-%20Immitation%20Learning/Racing/model.png)
 
 * Encoder: A ResNet-18 pretrained on ImageNet.
 * Decoder: A stack of fully connected layers, with a Batchnorm and ReLU in between 2 consecutive layers.
@@ -57,7 +57,7 @@ I studied the effect of:
 
 **Performance of the models:**
 
-![Performance of the models](https://github.com/SohamTamba/DeepRL/blob/master/%232/Racing/performance.png)
+![Performance of the models](https://github.com/SohamTamba/DeepRL/tree/master/2%20-%20Immitation%20Learning/Racing/performance.png)
 
 The following adjustments improved performance:
 
@@ -69,7 +69,7 @@ us to inject the inductive bias into the model regarding the effects of pressing
 
 I studied the effect of training the best performing model on a fraction of the data:
 
-![Agent reward with varrying training data](https://github.com/SohamTamba/DeepRL/blob/master/%232/Racing/reward-vs-data.png)
+![Agent reward with varrying training data](https://github.com/SohamTamba/DeepRL/tree/master/2%20-%20Immitation%20Learning/Racing/reward-vs-data.png)
 
 It appears that the size of the training data has little effect on the performance. In fact the best performing agent scores an **average reward of 801**, using only 40% of the data.
 
@@ -89,3 +89,4 @@ To train the model, execute:
 To evaluate the model, execute:
 
 `python test_agent.py -num_decoder_layers 2 -prediction_mode classification --render`
+
