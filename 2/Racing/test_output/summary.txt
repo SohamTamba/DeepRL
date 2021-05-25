@@ -1,0 +1,26 @@
+Model                                                                           |Mean | Var
+--------------------------------------------------------------------------------|-----|--------
+Encoder=resnet18-freeze_encoder=False-Decoder=1-N_history=8-mode=classification |641  | 280
+Encoder=resnet18-freeze_encoder=False-Decoder=1-N_history=8-mode=regression     |457  | 129
+Encoder=resnet18-freeze_encoder=False-Decoder=2-N_history=8-mode=classification |710  | 220
+Encoder=resnet18-freeze_encoder=False-Decoder=2-N_history=8-mode=regression     |530  | 91
+Encoder=resnet18-freeze_encoder=True-Decoder=1-N_history=8-mode=classification  |520  | 203
+Encoder=resnet18-freeze_encoder=True-Decoder=1-N_history=8-mode=regression      |454  | 114
+Encoder=resnet18-freeze_encoder=True-Decoder=2-N_history=8-mode=classification  |650  | 212
+Encoder=resnet18-freeze_encoder=True-Decoder=2-N_history=8-mode=regression      |568  | 166
+Encoder=resnet18-freeze_encoder=True-Decoder=3-N_history=8-mode=classification  |634  | 212
+Encoder=resnet18-freeze_encoder=True-Decoder=3-N_history=8-mode=regression      |481  | 106
+
+
+
+Performance of Encoder=resnet18-freeze_encoder=False-Decoder=2-N_history=8-mode=classification by varrying data:
+
+
+______________________
+Data  | Mean | Var
+------|------|--------
+ 4600 | 714  | 196
+ 9200 | 801  | 164
+13800 | 741  | 187
+18400 | 655  | 162
+23000 | 710  | 220
