@@ -11,7 +11,7 @@ To train the agent using DQN, execute:  `python dqn.py --bufffer_mode vanilla`
 
 To train the agent using DQN with PER, execute:  `python dqn.py --bufffer_mode priority`
 
-Note that the folder folder containing the build_model and DQNAgent are missing, so the above code will not run
+Note that the folder containing the build_model and DQNAgent API are missing, so the above code will not run
 
 
 ## Observations
