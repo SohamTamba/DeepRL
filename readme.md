@@ -7,7 +7,7 @@ Course assignments of the Deep Reinforcement Learning course offered at New York
 
 The 4 assignments can be found in the 4 folders in this repository root. To quickly summarize the assignments:
 1. Solve a standard ML task related to classifying tabular data
-2. Solve Open AI's CarRacing-v0 using **Immitation Learning**. Also, solve analze the Gambler Problem as an MDP [Unavailable].
+2. Solve Open AI's CarRacing-v0 using **Immitation Learning**. Also, solve the Gambler Problem as an Markov Decision Process [Unavailable].
 3. Solve Open AI's CarRacing-v0 using **Deep-Q Network**. Then solve it using DQN with **Priority Experience Replay**
 4. Solve Open AI's CartPole-v1 using Policy Gradient methods - **Reinforce** & **Proximal Policy Optimization**
 
